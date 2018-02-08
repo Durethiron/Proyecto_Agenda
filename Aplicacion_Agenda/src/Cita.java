@@ -26,7 +26,7 @@ public class Cita {
     
     public String leerCita(){
         StringBuilder st=new StringBuilder();
-        st.append("").append(this.getHora()).append(": ").append(this.getMinutos()).append(" - ");
+        st.append("").append(this.getHora()).append(":").append(this.getMinutos()).append(" - ");
         st.append(this.getTitulo()).append("\n");
         st.append(this.getTexto()).append("\n\n");
         
